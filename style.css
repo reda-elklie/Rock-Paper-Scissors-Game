@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cantainer {
+    width: auto;
+    height: 300px;
+    background-color: rgba(100, 100, 122, 0.479);
+    outline: 3px solid white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 200px;
+    height: 100px;
+    /* position: absolute;
+    top: 20%;
+    left: 10%; */
+    color: white;
+    /* display: flex;
+    justify-content: flex-start; */
+    /* align-items: center; */
+    text-transform: uppercase;
+    font-size: 3rem;
+    /* background-color: blue; */
+    margin-right: 150px;
+}
+
+.right {
+    width: 100px;
+    height: 100px;
+    /* background-color: bisque; */
+    /* position: absolute;
+    top: 20%;
+    left: 60%; */
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+button {
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    height: 60px;
+    background-color: rgb(100, 100, 122);
+    color: burlywood;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 3px solid white;
+}
+
+#try {
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    height: 60px;
+    background-color: rgba(100, 100, 122, 0.479);
+    color: burlywood;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 3px solid white;
+    display: none;
+}
+
+img {
+    min-width: 200px;
+    min-height: 200px;
+    animation: reda 500ms;
+}
+
+@keyframes reda {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.score {
+    width: 500px;
+    height: 70px;
+    background-color: rgba(100, 100, 122, 0.479);
+    position: absolute;
+    outline: 2px solid white;
+    top: 1%;
+    display: flex;
+    display: none;
+}
+
+.lefft {
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    border-right: 2px solid white;
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.rightt {
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
